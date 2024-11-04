@@ -5,8 +5,10 @@ vim.api.nvim_create_autocmd("ExitPre", {
 	desc = "Set cursor back to beam when leaving Neovim.",
 })
 
-local theme = ""
-for _, value in pairs(pcode.themes) do
-	theme = value
+if pcode.themes then
+	local theme = ""
+	for _, value in pairs(pcode.themes or {}) do
+		theme = value
+	end
+	vim.cmd("colorscheme " .. theme)
 end
-vim.cmd("colorscheme " .. theme)
