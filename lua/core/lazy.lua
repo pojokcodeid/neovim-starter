@@ -11,7 +11,7 @@ vim.diagnostic.config({ virtual_lines = false })
 -- initialisasi plugins
 local importdata = {
 	{
-		"pojokcodeid/neovim-tutorial-full",
+		"pojokcodeid/nvim-lazy",
 		import = "pcode.plugins",
 	},
 }
