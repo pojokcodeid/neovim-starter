@@ -54,9 +54,10 @@ return {
 	{
 		"folke/which-key.nvim",
 		opts = function(_, opts)
-			opts.mappings = {
+			opts.mappings = opts.mappings or {}
+			vim.list_extend(opts.mappings, {
 				{ "<leader>h", "<cmd>nohlsearch<CR>", desc = "󱪿 No Highlight", mode = "n" },
-			}
+			})
 		end,
 	},
 	-- overide telescope

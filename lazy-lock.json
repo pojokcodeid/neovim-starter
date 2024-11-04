@@ -25,6 +25,8 @@
   "lualine.nvim": { "branch": "master", "commit": "640260d7c2d98779cab89b1e7088ab14ea354a02" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "25c11854aa25558ee6c03432edfa0df0217324be" },
   "mason.nvim": { "branch": "main", "commit": "c43eeb5614a09dc17c03a7fb49de2e05de203924" },
+  "menu": { "branch": "main", "commit": "9269d8ff5775bb1b9b9cad538d1bcd13fa105fe7" },
+  "minty": { "branch": "main", "commit": "6e5c4cfc66e5dbb248ab78293d1c147de0c33a54" },
   "neovim-tutorial-full": { "branch": "main", "commit": "1f85557b220f1aadc19b3e889992430c7ed1a201" },
   "noice.nvim": { "branch": "main", "commit": "5a78b42bec5e775f2db03bf93f6d1e0f3636306c" },
   "nui.nvim": { "branch": "main", "commit": "a0fd35fcbb4cb479366f1dc5f20145fd718a3733" },
@@ -44,6 +46,7 @@
   "smart-splits.nvim": { "branch": "master", "commit": "1a2b268a7ec7aeef879cdd15973339010ec134f7" },
   "telescope.nvim": { "branch": "master", "commit": "85922dde3767e01d42a08e750a773effbffaea3e" },
   "toggleterm.nvim": { "branch": "main", "commit": "5969229c0352ff1ed7f6e24aba9c6554e1842939" },
+  "volt": { "branch": "main", "commit": "c99a2f4ece14ff501f14e4c10fe9cd60b22757a8" },
   "which-key.nvim": { "branch": "main", "commit": "fb070344402cfc662299d9914f5546d840a22126" },
   "yanky.nvim": { "branch": "main", "commit": "9268018e92d02650a94e39dd5f5903c542f7ea11" }
 }
