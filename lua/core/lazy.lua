@@ -22,13 +22,17 @@ for key, _ in pairs(theme) do
 end
 -- load extras plugins
 local extras = pcode.extras or {}
-for _, value in pairs(extras) do
-	table.insert(importdata, { import = "pcode.plugins.extras." .. value })
+for key, value in pairs(extras) do
+	if value then
+		table.insert(importdata, { import = "pcode.plugins.extras." .. key })
+	end
 end
 -- load language config
 local lang = pcode.lang or {}
-for _, value in pairs(lang) do
-	table.insert(importdata, { import = "pcode.plugins.lang." .. value })
+for key, value in pairs(lang) do
+	if value then
+		table.insert(importdata, { import = "pcode.plugins.lang." .. key })
+	end
 end
 -- load transparant config
 local transparant = pcode.transparent or false
