@@ -50,7 +50,6 @@ pcode.themes = {
 	evatheme = "Eva-Dark",
 	-- evatheme = "Eva-Dark-Italic",
 	-- evatheme = "Eva-Dark-Bold",
-	-- evatheme = "Eva-Light",
 	--
 	-- **:: Dracula Theme ::** --
 	-- dracula = "dracula",
