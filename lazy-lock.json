@@ -29,7 +29,7 @@
   "nui.nvim": { "branch": "main", "commit": "a0fd35fcbb4cb479366f1dc5f20145fd718a3733" },
   "nvim-autopairs": { "branch": "master", "commit": "ee297f215e95a60b01fde33275cc3c820eddeebe" },
   "nvim-cmp": { "branch": "main", "commit": "f17d9b4394027ff4442b298398dfcaab97e40c4f" },
-  "nvim-lazy": { "branch": "dev", "commit": "5200fa75aa7e41c2951cd8f50101c75fcc8d73b9" },
+  "nvim-lazy": { "branch": "dev", "commit": "8a5c2dd3987d9f703e8179af9c55a627fc656d84" },
   "nvim-lint": { "branch": "master", "commit": "36da8dd0ddc4f88e0beae234c20e75397326f143" },
   "nvim-lspconfig": { "branch": "master", "commit": "056f569f71e4b726323b799b9cfacc53653bceb3" },
   "nvim-material-icon": { "branch": "main", "commit": "38fc13fe4811c4bf62533180ff5e7bbd237c5ef5" },
