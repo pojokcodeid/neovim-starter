@@ -5,6 +5,17 @@ vim.api.nvim_create_autocmd("ExitPre", {
 	desc = "Set cursor back to beam when leaving Neovim.",
 })
 
+-- Disable statusline in dashboard
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = { "dbout", "dbui", "http", "httpResult", "lazy" },
+	callback = function()
+		local opt = vim.opt
+		opt.number = false -- Print line number
+		opt.preserveindent = false -- Preserve indent structure as much as possible
+		opt.relativenumber = false
+	end,
+})
+
 if pcode.themes then
 	local theme = ""
 	for _, value in pairs(pcode.themes or {}) do
