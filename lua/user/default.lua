@@ -42,6 +42,14 @@ pcode.extras = {
 	zenmode = false,
 	rainbowdelimiters = true,
 	smartsplit = true,
+	lspsignatur = false,
+	telescopetreesiterinfo = false,
+	fidget = false,
+	tinydignostic = false,
+	dressing = true,
+	telescopediff = false,
+	cheatsheet = false,
+	showkeys = false,
 }
 -- activate config themes
 pcode.themes = {
