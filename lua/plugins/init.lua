@@ -39,7 +39,7 @@ return {
 	},
 	-- install mason (lsp, dap, linters, formatters)
 	{
-		"williamboman/mason.nvim",
+		"mason-org/mason.nvim",
 		opts = {
 			ensure_installed = {
 				-- "stylua"
@@ -48,7 +48,7 @@ return {
 	},
 	-- overide lsp config
 	{
-		"williamboman/mason-lspconfig.nvim",
+		"mason-org/mason-lspconfig.nvim",
 		opts = function(_, opts)
 			vim.list_extend(opts.ensure_installed, {})
 		end,
