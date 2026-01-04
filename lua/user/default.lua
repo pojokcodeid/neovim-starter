@@ -19,22 +19,25 @@ pcode.lang = {
 pcode.extras = {
 	autosave = false,
 	bigfiles = false,
+	blinkripgrep = true,
 	bufferline = true,
 	cheatsheet = false,
 	codeium = false,
 	codeiumnvim = false,
 	colorizer = false,
+	colorfullblink = true,
 	dap = false,
 	deviconcolor = false,
 	dressing = true,
 	fidget = false,
+	hilightcolor = false,
 	illuminate = false,
 	indentscupe = false,
 	liveserver = false,
-	lspsignatur = false,
+	lspprogress = false,
 	minianimate = false,
 	navic = true,
-	neocodeium = false,
+	neocodeium = true,
 	neoscroll = false,
 	nvimmenu = false,
 	nvimufo = false,
@@ -43,55 +46,48 @@ pcode.extras = {
 	rest = false,
 	scrollview = false,
 	showkeys = false,
-	smartsplit = true,
+	smartsplit = false,
+	startuptime = false,
 	telescopediff = false,
 	telescopetreesiterinfo = false,
 	tinydignostic = false,
+	transparent = false,
 	treesittercontex = false,
-	verticalcolumn = true,
-	visualmulti = true,
-	yanky = true,
+	verticalcolumn = false,
+	visualmulti = false,
+	yanky = false,
 	zenmode = false,
 }
 -- activate config themes
+-- evatheme = "Eva-Dark",
+-- evatheme = "Eva-Dark-Italic",
+-- evatheme = "Eva-Dark-Bold",
+-- evatheme = "Eva-Light",
+-- dracula = "dracula",
+-- dracula = "dracula-soft",
+-- onedarkpro = "onedark",
+-- onedarkpro = "onedark_vivid",
+-- onedarkpro = "onedark_dark",
+-- jetbrains = "darcula-dark",
+-- sublimetext = "juliana",
+-- tokyonight = "tokyonight-night",
+-- tokyonight = "tokyonight-storm",
+-- tokyonight = "tokyonight-day",
+-- tokyonight = "tokyonight-moon",
+-- catppuccin = "catppuccin",
+-- catppuccin = "catppuccin-latte",
+-- catppuccin = "catppuccin-frappe",
+-- catppuccin = "catppuccin-macchiato",
+-- catppuccin = "catppuccin-macchiato",
+-- gruvbox = "gruvbox",
+-- github = "github_dark_dimmed",
+
 pcode.themes = {
-	-- note: open remark only one
-	-- **:: Eva Theme ::** --
-	-- evatheme = "Eva-Dark",
-	-- evatheme = "Eva-Dark-Italic",
-	-- evatheme = "Eva-Dark-Bold",
-	--
-	-- **:: Dracula Theme ::** --
 	dracula = "dracula",
-	-- dracula = "dracula-soft",
-	--
-	-- **:: Onedarkpro Theme ::** --
-	-- onedarkpro = "onedark",
-	-- onedarkpro = "onedark_vivid",
-	-- onedarkpro = "onedark_dark",
-	--
-	-- **:: Jetbrains Theme ::** --
-	-- jetbrains = "darcula-dark",
-	--
-	-- **:: Sublimetext Theme ::** --
-	-- sublimetext = "juliana",
-	--
-	-- **:: Tokyonight Theme ::** --
-	-- tokyonight = "tokyonight-night",
-	-- tokyonight = "tokyonight-storm",
-	-- tokyonight = "tokyonight-day",
-	-- tokyonight = "tokyonight-moon",
-	--
-	-- **:: Catppuccin Theme ::** --
-	-- catppuccin = "catppuccin",
-	-- catppuccin = "catppuccin-latte",
-	-- catppuccin = "catppuccin-frappe",
-	-- catppuccin = "catppuccin-macchiato",
-	-- catppuccin = "catppuccin-macchiato",
 }
 -- activate config transparent_bg
-pcode.transparent = false
-pcode.localcode = true
+-- pcode.transparent=false
+pcode.localcode = false
 pcode.snippets_path = vim.fn.stdpath("config") .. "/mysnippets"
 pcode.use_nvimtree = true
 pcode.nvimtree_float = false

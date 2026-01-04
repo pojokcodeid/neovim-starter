@@ -12,7 +12,7 @@ vim.diagnostic.config({ virtual_lines = false })
 -- initialisasi plugins
 local importdata = {
 	{
-		"pojokcodeid/nvim-lazy",
+		"pojokcodeid/neovim-blink-cmp",
 		import = "pcode.plugins",
 	},
 }
